@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.trade-board { display:block; padding : 15px;}
+.coin-rect {width:150px; display:block; text-align:left; padding:4px; border:1px solid #fff;}
+.coin-rect.buy { background:#c1d7ff; }
+.coin-rect.sell { background:#ffc1c1; }
+.coin-rect label { float:right; }
