@@ -14,7 +14,7 @@ module.exports = class Coins {
 				90 : {price : 90, count : 5000, type : 'buy', reserver : [['bot',5000]] },
 			}
 		};
-		//this.bot();
+		this.bot();
 		this.io = io;
 		this.totalch = 0;
 		this.totaltax = 0;
